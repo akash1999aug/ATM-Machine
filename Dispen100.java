@@ -1,6 +1,6 @@
 package com.example.ATM2;
 
-public class Rupee100DispenseTopUp implements DispenseTopUpChain {
+public class Rupee100 implements DispenseTopUp {
 
     private DispenseTopUpChain chain;
 
