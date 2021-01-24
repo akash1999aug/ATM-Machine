@@ -5,7 +5,7 @@ public class Rupee500 implements DispenseTopUp {
     private DispenseTopUpChain chain;
 
     @Override
-    public void setNextChain(DispenseTopUpChain nextChain) {
+    public void setNextChain(DispenseTopUp nextChain) {
         this.chain = nextChain;
     }
 
