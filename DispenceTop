@@ -1,6 +1,6 @@
 package com.example.ATM2;
 
-public interface DispenseTopUpChain {
+public interface DispenseTopUp {
 
     void setNextChain(DispenseTopUpChain nextChain);
 
