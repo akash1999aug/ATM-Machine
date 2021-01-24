@@ -1,11 +1,11 @@
 package com.example.ATM2;
 
-public class Rupee500DispenseTopUp implements DispenseTopUpChain {
+public class Rupee500 implements DispenseTopUp {
 
     private DispenseTopUpChain chain;
 
     @Override
-    public void setNextChain(DispenseTopUpChain nextChain) {
+    public void setNextChain(DispenseTopUp nextChain) {
         this.chain = nextChain;
     }
 
