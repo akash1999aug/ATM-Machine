@@ -1,6 +1,6 @@
 package com.example.ATM2;
 
-public class Denomination {
+public class Denomin {
     int count=0;
     int value=0;
     public Denomination(int value){
