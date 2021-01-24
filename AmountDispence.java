@@ -1,6 +1,6 @@
 package com.example.ATM2;
 
-public class AmountDispen {
+public class AmountDispence {
 
     private DispenseTopUpChain chainStart;
 
